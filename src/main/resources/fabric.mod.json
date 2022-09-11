@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.phantomthedev.jukeboxutil.client.JukeboxutilClient"
+      "net.phantomthedev.jukeboxutil.client.JukeboxUtilClient"
     ],
     "main": [
-      "net.phantomthedev.jukeboxutil.Jukeboxutil"
+      "net.phantomthedev.jukeboxutil.JukeboxUtil"
     ]
   },
   "mixins": [
@@ -27,6 +27,7 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": "1.18.2",
+    "java": ">=17"
   }
 }
