@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "jukeboxutil",
+  "version": "${version}",
+  "name": "Jukeboxutil",
+  "description": "A custom music disc mod.",
+  "authors": [
+    "PhantomTheDev"
+  ],
+  "contact": {
+    "repo": "https://github.com/PhantomTheDev/JukeboxUtil"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/jukeboxutil/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.phantomthedev.jukeboxutil.client.JukeboxutilClient"
+    ],
+    "main": [
+      "net.phantomthedev.jukeboxutil.Jukeboxutil"
+    ]
+  },
+  "mixins": [
+    "jukeboxutil.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
